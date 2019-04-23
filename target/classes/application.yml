@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: hystrix-dashboard
+server:
+  port: 11000
+eureka:
+  instance:
+    lease-renewal-interval-in-seconds: 5 
+  client:
+    service-url:
+      defaultZone: http://eureka.hperson.com/eureka/
